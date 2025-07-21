@@ -1,0 +1,9 @@
+apiVersion: v2
+name: speedupdate
+description: A Helm chart for speedupdate
+sources:
+  - https://github.com/ludea/speedupdate
+  - https://github.com/ludea/charts
+type: application
+version: 0.10.0
+appVersion: "0.10.0"

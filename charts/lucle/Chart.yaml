@@ -1,0 +1,9 @@
+apiVersion: v2
+name: lucle
+description: A Helm chart for lucle
+sources:
+  - https://github.com/ludea/lucle
+  - https://github.com/ludea/charts
+type: application
+version: 0.1.0
+appVersion: "0.1.0"
