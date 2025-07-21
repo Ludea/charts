@@ -7,3 +7,6 @@ sources:
 type: application
 version: 0.10.0
 appVersion: "0.10.0"
+keywords:
+  - game
+  - update
