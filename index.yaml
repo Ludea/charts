@@ -2,6 +2,22 @@ apiVersion: v1
 entries:
   lucle:
   - apiVersion: v2
+    appVersion: 0.1.5
+    created: "2025-12-06T10:13:32.816370783Z"
+    description: A Helm chart for lucle
+    digest: 08692e4b71dc9a2cf6c13f50941d06deba93194939c45e88ada24c433a52eb63
+    keywords:
+    - cms
+    - web
+    name: lucle
+    sources:
+    - https://github.com/ludea/lucle
+    - https://github.com/ludea/charts
+    type: application
+    urls:
+    - https://github.com/Ludea/charts/releases/download/lucle-0.1.5/lucle-0.1.5.tgz
+    version: 0.1.5
+  - apiVersion: v2
     appVersion: 0.1.4
     created: "2025-12-03T15:58:35.212409582Z"
     description: A Helm chart for lucle
@@ -162,4 +178,4 @@ entries:
     urls:
     - https://github.com/Ludea/charts/releases/download/speedupdate-0.10.0/speedupdate-0.10.0.tgz
     version: 0.10.0
-generated: "2025-12-04T19:31:38.863289416Z"
+generated: "2025-12-06T10:13:32.816401631Z"
