@@ -147,6 +147,22 @@ entries:
     version: 0.1.0
   speedupdate:
   - apiVersion: v2
+    appVersion: 0.10.5
+    created: "2025-12-11T08:20:04.529688836Z"
+    description: A Helm chart for speedupdate
+    digest: 24d17edc533e636307782ac694a22b811c0e8ef1b8f2bff51db8e44824b855ee
+    keywords:
+    - game
+    - update
+    name: speedupdate
+    sources:
+    - https://github.com/ludea/speedupdate
+    - https://github.com/ludea/charts
+    type: application
+    urls:
+    - https://github.com/Ludea/charts/releases/download/speedupdate-0.10.5/speedupdate-0.10.5.tgz
+    version: 0.10.5
+  - apiVersion: v2
     appVersion: 0.10.4
     created: "2025-12-04T19:31:38.863263127Z"
     description: A Helm chart for speedupdate
@@ -226,4 +242,4 @@ entries:
     urls:
     - https://github.com/Ludea/charts/releases/download/speedupdate-0.10.0/speedupdate-0.10.0.tgz
     version: 0.10.0
-generated: "2025-12-09T10:05:15.336979087Z"
+generated: "2025-12-11T08:20:04.529727097Z"
