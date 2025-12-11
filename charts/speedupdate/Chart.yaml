@@ -5,8 +5,8 @@ sources:
   - https://github.com/ludea/speedupdate
   - https://github.com/ludea/charts
 type: application
-version: 0.10.4
-appVersion: "0.10.4"
+version: 0.10.5
+appVersion: "0.10.5"
 keywords:
   - game
   - update
