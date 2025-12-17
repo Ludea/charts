@@ -39,10 +39,13 @@ ingressroute:
   host: your.example.com
 
 persistence:
-  enabled: false
+  enabled: true
   size: 500Mi
   storageClass: local-path
-  
+
+secret:
+  pkey: ""
+
 resources:
   {}
   # limits:

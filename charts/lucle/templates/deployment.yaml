@@ -38,8 +38,11 @@ spec:
               containerPort: {{ .Values.service.port }}
               protocol: TCP
           volumeMounts:
-          - name: volume
+          - name: lucle-config
             mountPath: /opt/lucle/.config
+          - name: jwt-pkey
+            mountPath: /etc/lucle/
+            readOnly: true
           livenessProbe:
             httpGet:
               path: /health
@@ -54,6 +57,9 @@ spec:
       - name: volume
         persistentVolumeClaim:
           claimName: lucle
+      - name: jwt-pkey
+        secret:
+          secretName: lucle
       {{- with .Values.nodeSelector }}
       nodeSelector:
         {{- toYaml . | nindent 8 }}
