@@ -43,9 +43,6 @@ persistence:
   size: 500Mi
   storageClass: local-path
 
-secret:
-  pkey: ""
-
 resources:
   {}
   # limits:
