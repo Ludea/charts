@@ -36,6 +36,9 @@ spec:
         volumeMounts:
         - name: volume
           mountPath: /opt/speedupdate
+        - name: jwt-pkey
+          mountPath: /etc/speedupdate/
+          readOnly: true
         ports:
           - name: http
             containerPort: 8012
@@ -54,6 +57,9 @@ spec:
       - name: volume
         persistentVolumeClaim:
           claimName: speedupdate
+      - name: jwt-pkey
+        secret:
+          secretName: speedupdate
       {{- with .Values.nodeSelector }}
       nodeSelector:
         {{- toYaml . | nindent 8 }}
