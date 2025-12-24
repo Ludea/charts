@@ -36,7 +36,7 @@ spec:
         volumeMounts:
         - name: volume
           mountPath: /opt/speedupdate
-        - name: jwt-pkey
+        - name: jwt-pubkey
           mountPath: /etc/speedupdate/
           readOnly: true
         ports:
@@ -57,7 +57,7 @@ spec:
       - name: volume
         persistentVolumeClaim:
           claimName: speedupdate
-      - name: jwt-pkey
+      - name: jwt-pubkey
         secret:
           secretName: speedupdate
       {{- with .Values.nodeSelector }}
