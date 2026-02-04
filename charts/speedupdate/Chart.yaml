@@ -6,7 +6,7 @@ sources:
   - https://github.com/ludea/charts
 type: application
 version: 0.10.13
-appVersion: "0.10.12"
+appVersion: "0.10.13"
 keywords:
   - game
   - update
