@@ -3,6 +3,22 @@ entries:
   lucle:
   - apiVersion: v2
     appVersion: 0.2.0
+    created: "2026-08-05T17:51:05.035427896Z"
+    description: A Helm chart for lucle
+    digest: 799708d82c5f04140519525c9a3f8fb4418f5f977a8ec9f6cba7fd2eb5bc513f
+    keywords:
+    - cms
+    - web
+    name: lucle
+    sources:
+    - https://github.com/ludea/lucle
+    - https://github.com/ludea/charts
+    type: application
+    urls:
+    - https://github.com/Ludea/charts/releases/download/lucle-0.3.0/lucle-0.3.0.tgz
+    version: 0.3.0
+  - apiVersion: v2
+    appVersion: 0.2.0
     created: "2025-12-19T14:19:32.443223421Z"
     description: A Helm chart for lucle
     digest: 2442cd7c356653d908256b3a04da3348252bfd7cc908a8641b364eb431a8278f
@@ -227,6 +243,22 @@ entries:
     version: 0.1.0
   speedupdate:
   - apiVersion: v2
+    appVersion: 0.10.13
+    created: "2026-08-05T17:51:05.27527552Z"
+    description: A Helm chart for speedupdate
+    digest: bb1c0657e201e9da6b12643aaa83f992f8c25e9da7727ae953164c7ec86cb9e6
+    keywords:
+    - game
+    - update
+    name: speedupdate
+    sources:
+    - https://github.com/ludea/speedupdate
+    - https://github.com/ludea/charts
+    type: application
+    urls:
+    - https://github.com/Ludea/charts/releases/download/speedupdate-0.10.13/speedupdate-0.10.13.tgz
+    version: 0.10.13
+  - apiVersion: v2
     appVersion: 0.10.7
     created: "2025-12-13T04:18:08.210981677Z"
     description: A Helm chart for speedupdate
@@ -354,4 +386,4 @@ entries:
     urls:
     - https://github.com/Ludea/charts/releases/download/speedupdate-0.10.0/speedupdate-0.10.0.tgz
     version: 0.10.0
-generated: "2025-12-19T14:19:32.443327515Z"
+generated: "2026-08-05T17:51:05.275468822Z"
