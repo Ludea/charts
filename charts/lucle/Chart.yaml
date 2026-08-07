@@ -6,7 +6,7 @@ sources:
   - https://github.com/ludea/charts
 type: application
 version: 0.3.1
-appVersion: "0.2.0"
+appVersion: "0.3.1"
 keywords:
   - cms
   - web
